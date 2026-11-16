@@ -98,7 +98,7 @@ function Contact() {
               </a>
 
               <a
-                href="https://github.com/valeed910"
+                href="https://github.com/mohdvaleed129"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-item"

@@ -8,31 +8,53 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20);
+      // Checks multiple scroll properties in case body/html has custom overflow
+      const scrollPosition =
+        window.scrollY ||
+        window.pageYOffset ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop ||
+        0;
+
+      setScrolled(scrollPosition > 20);
 
       const sections = document.querySelectorAll("section[id]");
       sections.forEach((section) => {
         const top = section.offsetTop - 120;
         const height = section.offsetHeight;
 
-        if (window.scrollY >= top && window.scrollY < top + height) {
+        if (scrollPosition >= top && scrollPosition < top + height) {
           setActive(`#${section.id}`);
         }
       });
     };
 
-    // { passive: true } improves scroll performance significantly
-    window.addEventListener("scroll", handleScroll, { passive: true });
+    // 'true' (capture phase) ensures scroll is detected even inside nested scroll containers
+    window.addEventListener("scroll", handleScroll, true);
     handleScroll();
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll, true);
   }, []);
 
   const closeMenu = () => setMenuOpen(false);
 
   return (
     <div className="nav-space">
-      <nav className={scrolled ? "nav scrolled" : "nav"}>
+      <nav
+        className={scrolled ? "nav scrolled" : "nav"}
+        style={{
+          position: "fixed",
+          top: scrolled ? "16px" : "0px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          width: scrolled ? "82%" : "100%",
+          maxWidth: scrolled ? "960px" : "100%",
+          borderRadius: scrolled ? "50px" : "0px",
+          padding: scrolled ? "12px 30px" : "20px 50px",
+          transition: "all 0.35s cubic-bezier(0.4, 0, 0.2, 1)",
+          zIndex: 1000,
+        }}
+      >
         {/* Desktop Navigation */}
         <ul className={menuOpen ? "nav-links active" : "nav-links"}>
           <li>
@@ -130,4 +152,4 @@ function Navbar() {
   );
 }
 
-export, default Navbar;
+export default Navbar;

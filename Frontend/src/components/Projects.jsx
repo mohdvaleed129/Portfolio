@@ -74,7 +74,7 @@ function Projects() {
                   </a>
 
                   <a
-                    href="https://github.com/valeed910"
+                    href="https://github.com/mohdvaleed129"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="proj-link secondary"
@@ -134,7 +134,7 @@ function Projects() {
                 <div className="project-links">
 
                   <a
-                    href="https://github.com/valeed910"
+                    href="https://github.com/mohdvaleed129"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="proj-link"
@@ -194,7 +194,7 @@ function Projects() {
                 <div className="project-links">
 
                   <a
-                    href="https://github.com/valeed910"
+                    href="https://github.com/mohdvaleed129"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="proj-link"
@@ -252,7 +252,7 @@ function Projects() {
                 <div className="project-links">
 
                   <a
-                    href="https://github.com/valeed910"
+                    href="https://github.com/mohdvaleed129"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="proj-link"
