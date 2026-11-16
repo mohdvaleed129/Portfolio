@@ -173,7 +173,7 @@ export default function Hero() {
               <div className="code-line"><span className="ln">3</span><span>&nbsp;&nbsp;<span className="op">role</span>: <span className="str">"CTO &amp; Full-Stack Dev"</span>,</span></div>
               <div className="code-line"><span className="ln">4</span><span>&nbsp;&nbsp;<span className="op">year</span>: <span className="str">"B.Tech Information Technology"</span>,</span></div>
               <div className="code-line"><span className="ln">5</span><span>&nbsp;&nbsp;<span className="op">hackathons</span>: {"{"}</span></div>
-              <div className="code-line"><span className="ln">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span className="op">wins</span>: <span className="num">8</span>, <span className="op">projects</span>: <span className="num">2</span></span></div>
+              <div className="code-line"><span className="ln">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<span className="op">wins</span>: <span className="num">10</span>, <span className="op">projects</span>: <span className="num">2</span></span></div>
               <div className="code-line"><span className="ln">7</span><span>&nbsp;&nbsp;{"}"},</span></div>
               <div className="code-line"><span className="ln">8</span><span>&nbsp;&nbsp;<span className="op">stack</span>: [<span className="str">"React"</span>, <span className="str">"Node"</span>,</span></div>
               <div className="code-line"><span className="ln">9</span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="str">"MongoDB"</span>, <span className="str"></span>],</span></div>
