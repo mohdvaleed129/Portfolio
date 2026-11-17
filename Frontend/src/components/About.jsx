@@ -264,20 +264,6 @@ export default function About() {
                   <strong>AI, Machine Learning and Generative AI.</strong>
                 </p>
               </div>
-
-              <div className="about-buttons">
-                <a
-                  href="/assets/Final Resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="about-btn about-btn-primary"
-                >
-                  Download Resume <span>↗</span>
-                </a>
-                <a href="#contact" className="about-btn about-btn-secondary">
-                  Let's Connect <span>→</span>
-                </a>
-              </div>
             </div>
 
             {/* RIGHT SIDE */}
