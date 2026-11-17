@@ -10420,3 +10420,18 @@ nav.scrolled{ background:rgba(5,5,5,.9); }
 
 /* Scrollbar track */
 ::-webkit-scrollbar-track{ background:#050505; }
+
+
+/* Center Certifications Heading */
+#certifications .cert-heading {
+  max-width: 850px;
+  margin: 0 auto 45px;
+  text-align: center;
+}
+
+#certifications .cert-heading .section-title,
+#certifications .cert-heading .section-subtitle {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

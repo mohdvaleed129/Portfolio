@@ -67,11 +67,6 @@ frontend/
 
 ## Getting Started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
 ### Installation
 
 ```bash
@@ -119,4 +114,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by **Mohd Valeed Hasan**
+Made with ❤️ by **Mohd Valeed**

@@ -438,7 +438,7 @@ export default function Skills() {
                 <span className="skills-live-dot" />
                 CONTINUOUSLY LEARNING & BUILDING
               </span>
-              <span>MOHD VALEED HASAN / TECH STACK</span>
+              <span>MOHD VALEED / TECH STACK</span>
             </div>
 
           </div>
