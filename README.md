@@ -1,10 +1,6 @@
-# Mohd Valeed Hasan — Developer Portfolio
+# Mohd Valeed — Developer Portfolio
 
 A modern, responsive, and animated personal developer portfolio built with **React 19** and **Vite**. Showcases technical skills, projects, experience, achievements, certifications, and contact information with smooth scroll-based animations and a custom interactive cursor.
-
-## Live Demo
-
-[https://tallowandcare.in](https://tallowandcare.in) *(or replace with your portfolio URL)*
 
 ## Features
 
@@ -108,8 +104,6 @@ The project is a static Vite build and can be deployed to any static host:
 ```bash
 npm run build
 ```
-
-Deploy the contents of `dist/` to [Vercel](https://vercel.com), [Netlify](https://netlify.com), [GitHub Pages](https://pages.github.com), [Cloudflare Pages](https://pages.cloudflare.com), or [Render](https://render.com).
 
 ## Customization
 
