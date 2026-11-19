@@ -246,12 +246,6 @@ export default function Stats() {
           ))}
         </div>
 
-        <div className="stats-bottom">
-          <span>BUILT WITH CURIOSITY</span>
-          <span className="bottom-line" />
-          <span>DRIVEN BY INNOVATION</span>
-        </div>
-
       </div>
     </section>
   );
